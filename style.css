@@ -139,7 +139,8 @@ nav ul li a:hover::after{
     padding: 40px;
     font-size: 13px;
     font-weight: 300;
-    border-radius: 10px;    
+    border-radius: 10px;  
+    transition: background 0.5s, transform 0.5s;
 }
 .fa-code{
     font-size: 50px;
@@ -164,4 +165,9 @@ nav ul li a:hover::after{
     font-size: 12px;
     margin-top: 20px;
     display: inline-block;
+}
+.services-list div:hover{
+    background: #ff004f;
+    transform: translateY(-10px);
+
 }
